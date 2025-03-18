@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego del Amigo Secreto 🎁</h1>
+        <form id="participant-form">
+            <label for="name">Nombre del participante:</label>
+            <input type="text" id="name" name="name" required>
+            <button type="submit">Agregar participante</button>
+        </form>
+
+        <h2>Lista de participantes:</h2>
+        <ul id="participant-list"></ul>
+
+        <button id="draw-button" disabled>Sortear amigo secreto</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
